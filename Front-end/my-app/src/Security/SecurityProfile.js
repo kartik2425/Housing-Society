@@ -16,7 +16,7 @@ const SecurityProfile = () => {
             <div className="col-md-4 mt-1">
               <div className="card text-center sidebar bg-danger">
                 <div className="card-body">
-                  <img
+                  <img   
                     src={ban}
                     alt="loding.."
                     className="rounded-circle"
