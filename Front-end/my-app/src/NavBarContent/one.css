@@ -1,0 +1,126 @@
+
+  
+  /*About Us PAge  */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  .wrapper{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .background-color{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;  
+  
+  }
+  .bg-1{
+    flex:1;
+    background-color: rgb(232, 96, 11);
+  }
+  .bg-2{
+    flex:1;
+    background-color: rgb(239, 239, 10);
+  }
+  .about-container{
+    width: 80%;
+    min-height: 80vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 228, 154);
+    /* border: 2px solid red; */
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 24px 24px 30px rgb(102, 104, 236);
+  }
+  .img-container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-container img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  .text-container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .text-container h1{
+    font-size: 50px;
+    padding: 10px 0px;
+  }
+  
+  .text-container p{
+    font-size: 20px;
+    padding: 10px 0px;
+    text-align: justify;
+  }
+  
+  /* .text-container a{
+    text-decoration: none;
+    padding: 12px;
+    border: 2px solid rebeccapurple;
+    margin-top: 30px;
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 20px;
+    border-radius:12px;
+    transition: .3s all ease-in-out;
+  } */
+  
+  .text-container a:hover{
+    background-color: transparent;
+    color: black;
+    border: 2px solid rebeccapurple;
+  }
+  @media screen and (max-width:1600px) {
+      .about-container{
+        width: 90%;
+      }
+      .img-container img{
+        width: 400px;
+        height: 400px;
+      }
+      .text-container h1{
+        font-size: 50px;
+      }
+  }
+  
+  @media screen and (max-width:1100px) {
+    .about-container{
+      flex-direction: column;
+    }
+    .text-container h1{
+      align-items: center;
+    }
+  }
+  
+  @media screen and (max-width:550px) {
+    .img-container img{
+      width: 300px;
+      height: 300px;
+    }
+    .text-container p{
+      font-size: 20px;
+    }
+  }
+  
+  
+  
+ 

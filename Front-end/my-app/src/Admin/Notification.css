@@ -1,0 +1,42 @@
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+  }
+  .login-row{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px grey;
+  }
+  .login-img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  .login-btn1{
+    border:none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .login-btn1:hover{
+    background: white;
+    border: 1px solid;
+    color:  black;
+  }
+  
+  /* .sec{
+    justify-content: center;
+    margin: auto;
+  }  */
+  
+  .in{
+    width: 250px;
+    height: 60px;
+  }
+  
